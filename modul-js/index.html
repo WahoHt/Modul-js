@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Homework</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div class="header">
+			<div id="nav-menu">
+				<ul class="menu">
+					<li><a href="about.html">About</a></li>
+					<li><a href="#">Films</a></li>
+					<li><a href="Favourite.html">Favourite</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="Search">
+				<div class="inp-btn">
+					<input type="text" id="inp" placeholder="Search">
+					<button id="btn">Click</button>
+					<div>
+						<select id="quantity-films">
+							<option>Кол-во фильмов</option>
+							<option>3</option>
+							<option>5</option>
+							<option>10</option>
+						</select>
+					</div>
+				</div>
+		</div>
+			<div id="button-pagin">
+				<div id="btn-left">
+					<button id="button-left"></button>
+				</div>
+				<span id="numSpan"></span>
+				<div id="num-pages">
+					<!-- <span></span> -->
+				</div>
+				<div id="btn-right">
+					<button id="button-right"></button>
+				</div>
+				<div id="num-span-pages">
+					<ul>
+						<li class="li-pagin">1</li>
+						<li class="li-pagin">2</li>
+						<li class="li-pagin">3</li>
+						<li class="li-pagin">4</li>
+						<li class="li-pagin">5</li>
+					</ul>
+				</div>
+			</div>
+		<div id="Sort">
+			<div id="Country">
+				<select id="country-sort">
+					<option>Язык</option>
+					<option>English</option>
+					<option>Japanese</option>
+				</select>
+			</div>
+			<div id="Genre">
+				<select id="genre-sort">
+					<option>Жанр</option>
+					<option>Comedy</option>
+					<option>Drama</option>
+				</select>
+			</div>
+		</div>
+			<div id="cards"></div>
+	</div>
+	<script type="module" src="js/card.js"></script>
+	<script type="module" src="js/main.js"></script>
+	<script type="module" src="js/filter.js"></script>
+	<script type="module" src="js/fetch.js"></script>
+</body>
+</html>

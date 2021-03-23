@@ -1,0 +1,156 @@
+body{
+    background: #E5E5E5;
+    margin: 0;
+}
+.header{
+    display: flex;
+    margin:0;
+    height: 70px;
+    background-color: #DCDCDC;
+    user-select: none;
+}
+#nav-menu{
+    margin-left: 37%;
+}
+.inp-btn{
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.inp-btn input#inp{
+    border-radius: 5px;
+    height: 16px;
+    width: 200px;
+    float: left;
+    color: #63717f;
+}
+.inp-btn button#btn{
+    margin-left: 2px;
+    border-radius: 5px;
+}
+
+li {
+    margin-top: 3%;
+    list-style-type: none;
+  }
+ul > li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	display: inline-block;
+    padding: 0 11px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#Search{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    transition: all 1s ease;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+#cardsFavourite{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Sort{
+    display: flex;
+    margin-left: 42.2%;
+    margin-top: 40px;
+}
+
+#cards{
+    position: relative;
+    z-index: 1;
+}
+#button-pagin{
+    display: flex;
+    margin-left: 42%;
+    margin-top: 40px;
+}
+
+#button-left{
+    margin-right: 10px;
+}
+
+#num-span-pages{
+    display: none;
+}
+li:hover{
+    background-color: red;
+}
+
+#button-left {
+    outline: none;
+    display: inline-block;
+    width: 3em;
+    color: #ADB6AD;
+    height: 3em;
+    border: 0.5em solid;
+    border-radius: 50%;
+    text-align: center;
+  }
+  #button-left:hover{
+      color: black;
+  }
+  #button-left:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.2em;
+    margin-left: 0.1em;
+    width: 1em;
+    height: 1em;
+    border-top: 0.5em solid;
+    border-right: 0.5em solid;
+    -moz-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+
+#button-right {
+    outline: none;
+    margin-left: 5px;
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    border: 0.5em solid;
+    color:#ADB6AD;
+    border-radius: 50%;
+    text-align: center;
+  }
+  #button-right:hover{
+    color: black;
+}
+  #button-right:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.2em;
+    margin-left: -0.2em;
+    width: 1em;
+    height: 1em;
+    border-top: 0.5em solid;
+    border-right: 0.5em solid;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+#aboutImg{
+    width: 100%;
+    height: 100%;
+}
